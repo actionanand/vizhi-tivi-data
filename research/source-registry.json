@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "prasar-bharati-channels",
+      "name": "Prasar Bharati - DD Channels",
+      "url": "https://prasarbharati.gov.in/en/dd-channels/",
+      "country": "IN",
+      "kind": "official-broadcaster-directory",
+      "notes": "Name/availability research only; no stream reuse rights implied"
+    }
+  ]
+}

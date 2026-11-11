@@ -1,0 +1,12 @@
+node_modules/
+dist/
+reports/
+.cache/
+.env*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+.nyc_output/
+coverage/

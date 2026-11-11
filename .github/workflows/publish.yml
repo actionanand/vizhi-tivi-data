@@ -1,0 +1,121 @@
+name: Vizhi TiVi Data - Publish approved catalogue
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    # Daily policy evaluation: only publish if the PUBLIC catalogue digest changes.
+    - cron: '41 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: vizhi-tivi-data-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Verify, deploy and release meaningful changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate, test, build and audit revocations
+        run: npm run check
+
+      - name: Compare published catalogue digest
+        id: compare
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          current=$(node -p "require('./dist/site/manifest.json').contentSha256")
+          current_count=$(node -p "require('./dist/site/manifest.json').channelCount")
+          previous=""
+          previous_count=0
+          if gh api "repos/${GITHUB_REPOSITORY}/contents/manifest.json?ref=gh-pages" \
+              --jq '.content' > "$RUNNER_TEMP/previous_manifest.b64" 2>/dev/null; then
+            base64 --decode < "$RUNNER_TEMP/previous_manifest.b64" > "$RUNNER_TEMP/previous_manifest.json"
+            previous=$(node -p "require(process.argv[1]).contentSha256" "$RUNNER_TEMP/previous_manifest.json")
+            previous_count=$(node -p "require(process.argv[1]).channelCount" "$RUNNER_TEMP/previous_manifest.json")
+          fi
+          if [[ "$current" == "$previous" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo 'Public catalogue is unchanged; skipping Pages deployment and GitHub Release.'
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "short_digest=${current:0:12}" >> "$GITHUB_OUTPUT"
+            if [[ "$current_count" -gt 0 || "$previous_count" -gt 0 ]]; then
+              echo "release=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "release=false" >> "$GITHUB_OUTPUT"
+              echo 'Bootstrap-only empty catalogue: publish API skeleton, no empty GitHub Release.'
+            fi
+          fi
+
+      - name: Publish ONLY built JSON and static site to gh-pages
+        if: steps.compare.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist/site
+          enable_jekyll: false
+          keep_files: false
+
+      # Commits created by GITHUB_TOKEN do not trigger branch-based Pages builds.
+      - name: Request Pages build if gh-pages is configured
+        if: steps.compare.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if ! branch=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.source.branch // ""' 2>/dev/null); then
+            echo '::warning::Enable GitHub Pages: Deploy from a branch > gh-pages > /(root).'
+            exit 0
+          fi
+          if [[ "$branch" != 'gh-pages' ]]; then
+            echo "::warning::Pages source is '$branch'. Change to gh-pages /(root) before expecting publication."
+            exit 0
+          fi
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" > /dev/null
+          echo 'Requested Pages build from gh-pages.'
+
+      - name: Create immutable GitHub Release on meaningful change
+        if: steps.compare.outputs.changed == 'true' && steps.compare.outputs.release == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DIGEST: ${{ steps.compare.outputs.short_digest }}
+        run: |
+          set -euo pipefail
+          tag="catalogue-v1-${DIGEST}"
+          asset="vizhi-tivi-catalogue-v1-${DIGEST}.zip"
+          (cd dist/site && zip -qr "$RUNNER_TEMP/$asset" .)
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; retaining it unchanged."
+          else
+            gh release create "$tag" "$RUNNER_TEMP/$asset" \
+              --target "$GITHUB_SHA" \
+              --title "Vizhi TiVi catalogue v1 (${DIGEST})" \
+              --notes "Reviewed public Live TV catalogue; deterministic content digest ${DIGEST}. See manifest.json and rights policy. Prior releases are retained."
+          fi

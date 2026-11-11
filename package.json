@@ -1,0 +1,22 @@
+{
+  "name": "vizhi-tivi-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reviewed free/legal Live TV metadata and reproducible GitHub Pages catalogue",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "audit:policy": "node scripts/policy-audit.mjs",
+    "verify:publication": "node scripts/verify-publication.mjs",
+    "numbers:assign": "node scripts/numbers.mjs assign",
+    "numbers:retire": "node scripts/numbers.mjs retire",
+    "scan:weekly": "node scripts/weekly-scan.mjs",
+    "check": "npm run validate && npm test && npm run build && npm run audit:policy && npm run verify:publication"
+  },
+  "license": "MIT"
+}

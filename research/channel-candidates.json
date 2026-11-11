@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "notice": "Editorial research candidates ONLY. Not part of public catalogue. Names do not imply internet-stream or redistribution permission.",
+  "candidates": [
+    {
+      "id": "dd-tamil",
+      "name": "DD Tamil",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "general",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-national",
+      "name": "DD National",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "general",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-news",
+      "name": "DD News",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "news",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-india",
+      "name": "DD India",
+      "country": "IN",
+      "languages": [
+        "eng"
+      ],
+      "category": "news",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-sports",
+      "name": "DD Sports",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "sports",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-malayalam",
+      "name": "DD Malayalam",
+      "country": "IN",
+      "languages": [
+        "mal"
+      ],
+      "category": "general",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    },
+    {
+      "id": "dd-saptagiri",
+      "name": "DD Saptagiri",
+      "country": "IN",
+      "languages": [
+        "tel"
+      ],
+      "category": "general",
+      "referenceUrl": "https://prasarbharati.gov.in/en/dd-channels/",
+      "permissionStatus": "not-reviewed",
+      "streamUrl": null
+    }
+  ]
+}
