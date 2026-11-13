@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { ROOT, LOCALES, loadAll, publicView } from './lib.mjs';
 
 export function writeBuild(root=ROOT){
@@ -28,4 +29,4 @@ export function writeBuild(root=ROOT){
   console.log(`Built ${target}: ${manifest.channelCount} channels / ${manifest.streamCount} streams; digest ${manifest.contentSha256}`);
   return manifest;
 }
-if(process.argv[1] && path.resolve(process.argv[1])===path.resolve(new URL(import.meta.url).pathname)) writeBuild();
+if(process.argv[1] && path.resolve(process.argv[1])===path.resolve(fileURLToPath(import.meta.url))) writeBuild();
