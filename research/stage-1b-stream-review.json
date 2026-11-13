@@ -1,0 +1,2167 @@
+{
+  "schemaVersion": 1,
+  "notice": "Research only; never publish these candidates without explicit documented rights approval and independent technical review.",
+  "reviewDate": "2026-11-13",
+  "candidates": [
+    {
+      "channelId": "dd-tamil",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": "https://cdn.pishow.tv/ott/live/1737/master.m3u8",
+      "discoveryEvidence": "https://gist.github.com/ZeiTeria/68851fb02bbb95525d89ff0ff0afceae",
+      "format": "hls",
+      "https": "TLS verified; HTTPS-only redirect policy",
+      "connectivity": "HTTP 200; response starts #EXTM3U; 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Third-party endpoint; obtain Prasar Bharati and provider authorization.",
+      "name": "DD Tamil",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "general",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Tamil in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Tamil on Android mobile, Android TV and web? We found https://cdn.pishow.tv/ott/live/1737/master.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you. The candidate URL is PiShow-hosted; please identify the provider and whether separate CDN authorization is needed. Please confirm if the stream hosting or CDN company must grant a separate written delivery authorization."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      },
+      "aliases": [
+        "DD Podhigai",
+        "DD Pothigai"
+      ],
+      "rightsHolder": "Prasar Bharati / Doordarshan",
+      "permissionPriority": 1
+    },
+    {
+      "channelId": "news18-tamil-nadu",
+      "officialEvidence": "https://tamil.news18.com/",
+      "candidateStreamUrl": "https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8",
+      "discoveryEvidence": "https://github.com/ajimal173/iptv/blob/main/Rasi-Tv",
+      "format": "hls",
+      "https": "TLS verified; HTTPS-only redirect policy",
+      "connectivity": "HTTP 200; response starts #EXTM3U; 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Verify identity with broadcaster and obtain direct-stream permission; official site blocked automated review.",
+      "name": "News18 Tamil Nadu",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "news",
+      "contactSource": "https://tamil.news18.com/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": null,
+        "subject": "Request for permission to include News18 Tamil Nadu in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play News18 Tamil Nadu on Android mobile, Android TV and web? We found https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "official identity not independently confirmed",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      }
+    },
+    {
+      "channelId": "news-tamil-24x7",
+      "officialEvidence": "https://www.splusmedia.in/about.php",
+      "candidateStreamUrl": "https://streams.tangotv.in/NEWSTAMIL24X7/ORIGIN/index.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "TLS verified; HTTPS-only redirect policy",
+      "connectivity": "HTTP 200; response starts #EXTM3U; 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Third-party endpoint; obtain SPlus Media and provider permission.",
+      "name": "News Tamil 24x7",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "news",
+      "contactSource": "https://www.splusmedia.in/about.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "enquiry@splusmedia.in",
+        "subject": "Request for permission to include News Tamil 24x7 in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play News Tamil 24x7 on Android mobile, Android TV and web? We found https://streams.tangotv.in/NEWSTAMIL24X7/ORIGIN/index.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you. Please confirm whether Tango TV separately must authorize use of its delivery infrastructure."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsHolder": "SPlus Media Limited",
+      "permissionPriority": 3
+    },
+    {
+      "channelId": "svbc-2-tamil",
+      "officialEvidence": "https://www.svbcttd.org/",
+      "candidateStreamUrl": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "TLS verified; HTTPS-only redirect policy",
+      "connectivity": "HTTP 200; response starts #EXTM3U; 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm endpoint ownership with SVBC and obtain permission for in-app use.",
+      "name": "SVBC 2 Tamil",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "contactSource": "https://www.svbcttd.org/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "svbcfeedback.ttd@tirumala.org",
+        "subject": "Request for permission to include SVBC 2 Tamil in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play SVBC 2 Tamil on Android mobile, Android TV and web? We found https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you. Please confirm whether mslivestream separately must authorize delivery. Please confirm if the stream hosting or CDN company must grant a separate written delivery authorization."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsHolder": "Sri Venkateswara Bhakti Channel / Tirumala Tirupati Devasthanams",
+      "permissionPriority": 2
+    },
+    {
+      "channelId": "sansad-tv-1",
+      "officialEvidence": "https://webcast.gov.in/lstvlive/",
+      "candidateStreamUrl": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
+      "discoveryEvidence": "https://webcast.gov.in/jwplayer/video.html?autostart=true&hlsurl=%2F%2Fplayhls.media.nic.in%2Fhls%2Flive%2Flstv%2Flstv.m3u8",
+      "format": "hls",
+      "https": "TLS verified; HTTPS-only redirect policy",
+      "connectivity": "HTTP 200; response starts #EXTM3U; 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "NIC-hosted player evidence is not permission; request rights for direct third-party client use.",
+      "name": "Sansad TV 1",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "contactSource": "https://sansadtv.nic.in/live-tv",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "sansadtv-digital@sansad.nic.in",
+        "subject": "Request for permission to include Sansad TV 1 in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play Sansad TV 1 on Android mobile, Android TV and web? We found https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      }
+    },
+    {
+      "channelId": "dd-national",
+      "name": "DD National",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": "https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD National in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD National on Android mobile, Android TV and web? We found https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-news",
+      "name": "DD News",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": "https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD News in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD News on Android mobile, Android TV and web? We found https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-india",
+      "name": "DD India",
+      "country": "IN",
+      "languages": [
+        "eng"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD India in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD India on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-bharati",
+      "name": "DD Bharati",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Bharati in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Bharati on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-urdu",
+      "name": "DD Urdu",
+      "country": "IN",
+      "languages": [
+        "urd"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Urdu in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Urdu on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-kisan",
+      "name": "DD Kisan",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Kisan in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Kisan on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-malayalam",
+      "name": "DD Malayalam",
+      "country": "IN",
+      "languages": [
+        "mal"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Malayalam in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Malayalam on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-saptagiri",
+      "name": "DD Saptagiri",
+      "country": "IN",
+      "languages": [
+        "tel"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Saptagiri in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Saptagiri on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-chandana",
+      "name": "DD Chandana",
+      "country": "IN",
+      "languages": [
+        "kan"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": "https://cdn.pishow.tv/ott/live/28/master.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Chandana in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Chandana on Android mobile, Android TV and web? We found https://cdn.pishow.tv/ott/live/28/master.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      },
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-yadagiri",
+      "name": "DD Yadagiri",
+      "country": "IN",
+      "languages": [
+        "tel"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Yadagiri in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Yadagiri on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-sahyadri",
+      "name": "DD Sahyadri",
+      "country": "IN",
+      "languages": [
+        "mar"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Sahyadri in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Sahyadri on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-girnar",
+      "name": "DD Girnar",
+      "country": "IN",
+      "languages": [
+        "guj"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Girnar in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Girnar on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-oriya",
+      "name": "DD Oriya",
+      "country": "IN",
+      "languages": [
+        "ori"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Oriya in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Oriya on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-bangla",
+      "name": "DD Bangla",
+      "country": "IN",
+      "languages": [
+        "ben"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Bangla in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Bangla on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-assam",
+      "name": "DD Assam",
+      "country": "IN",
+      "languages": [
+        "asm"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Assam in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Assam on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-punjabi",
+      "name": "DD Punjabi",
+      "country": "IN",
+      "languages": [
+        "pan"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Punjabi in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Punjabi on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-rajasthan",
+      "name": "DD Rajasthan",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Rajasthan in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Rajasthan on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-bihar",
+      "name": "DD Bihar",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Bihar in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Bihar on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-jharkhand",
+      "name": "DD Jharkhand",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Jharkhand in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Jharkhand on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-madhya-pradesh",
+      "name": "DD Madhya Pradesh",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Madhya Pradesh in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Madhya Pradesh on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-uttar-pradesh",
+      "name": "DD Uttar Pradesh",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Uttar Pradesh in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Uttar Pradesh on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-chhattisgarh",
+      "name": "DD Chhattisgarh",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Chhattisgarh in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Chhattisgarh on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-uttarakhand",
+      "name": "DD Uttarakhand",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Uttarakhand in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Uttarakhand on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-himachal-pradesh",
+      "name": "DD Himachal Pradesh",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Himachal Pradesh in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Himachal Pradesh on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-kashir",
+      "name": "DD Kashir",
+      "country": "IN",
+      "languages": [
+        "kas"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Kashir in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Kashir on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-tripura",
+      "name": "DD Tripura",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Tripura in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Tripura on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-arunprabha",
+      "name": "DD Arunprabha",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Arunprabha in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Arunprabha on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-manipur",
+      "name": "DD Manipur",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Manipur in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Manipur on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-goa",
+      "name": "DD Goa",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Goa in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Goa on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-haryana",
+      "name": "DD Haryana",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Haryana in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Haryana on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-meghalaya",
+      "name": "DD Meghalaya",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Meghalaya in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Meghalaya on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-mizoram",
+      "name": "DD Mizoram",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Mizoram in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Mizoram on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "dd-nagaland",
+      "name": "DD Nagaland",
+      "country": "IN",
+      "languages": [],
+      "category": "public-service",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Request for permission to include DD Nagaland in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play DD Nagaland on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan; content and delivery rights require confirmation",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials: personal or educational use, with stated reproduction and distribution restrictions; not a grant for third-party live feeds or these clients.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "sdr-tv",
+      "name": "SDR TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "general",
+      "officialEvidence": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "sdponseelan@abigroup.co.in",
+        "subject": "Request for permission to include SDR TV in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play SDR TV on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you. Please confirm if the stream hosting or CDN company must grant a separate written delivery authorization."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "permissionPriority": 4,
+      "rightsHolder": "ABI Media Network; grant authority to confirm"
+    },
+    {
+      "channelId": "abi-tv",
+      "name": "ABI TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "general",
+      "officialEvidence": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "sdponseelan@abigroup.co.in",
+        "subject": "Request for permission to include ABI TV in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play ABI TV on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel"
+    },
+    {
+      "channelId": "abi-music",
+      "name": "ABI Music",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "music",
+      "officialEvidence": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.abigroup.co.in/businesses/abi-media-network",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "sdponseelan@abigroup.co.in",
+        "subject": "Request for permission to include ABI Music in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play ABI Music on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel"
+    },
+    {
+      "channelId": "svbc-telugu",
+      "name": "SVBC Telugu",
+      "country": "IN",
+      "languages": [
+        "tel"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://www.svbcttd.org/",
+      "candidateStreamUrl": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.svbcttd.org/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "svbcfeedback.ttd@tirumala.org",
+        "subject": "Request for permission to include SVBC Telugu in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play SVBC Telugu on Android mobile, Android TV and web? We found https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      }
+    },
+    {
+      "channelId": "svbc-3-kannada",
+      "name": "SVBC 3 Kannada",
+      "country": "IN",
+      "languages": [
+        "kan"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://www.svbcttd.org/",
+      "candidateStreamUrl": "https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.svbcttd.org/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "svbcfeedback.ttd@tirumala.org",
+        "subject": "Request for permission to include SVBC 3 Kannada in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play SVBC 3 Kannada on Android mobile, Android TV and web? We found https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      }
+    },
+    {
+      "channelId": "svbc-4-hindi",
+      "name": "SVBC 4 Hindi",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://www.svbcttd.org/",
+      "candidateStreamUrl": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
+      "discoveryEvidence": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u",
+      "format": "hls",
+      "https": "Not tested",
+      "connectivity": "Not tested: local DNS unavailable on 2026-11-13",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://www.svbcttd.org/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "svbcfeedback.ttd@tirumala.org",
+        "subject": "Request for permission to include SVBC 4 Hindi in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play SVBC 4 Hindi on Android mobile, Android TV and web? We found https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8 in a third-party directory or public player; please confirm its ownership and whether direct use is permitted, or provide an authorized HTTPS endpoint. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel",
+      "latestTechnicalAttempt": {
+        "date": "2026-11-13",
+        "https": "not established: DNS ENOTFOUND in sandbox; web fetch tool also could not access endpoint",
+        "manifest": "not tested",
+        "variants": "not tested",
+        "segments": "not tested",
+        "decode": "not tested",
+        "tracks": "unknown",
+        "redirects": "unknown",
+        "authentication": "unknown",
+        "geographicRestrictions": "unknown",
+        "note": "No inference of server failure or access policy; prior observations retained separately."
+      }
+    },
+    {
+      "channelId": "sansad-tv-2",
+      "name": "Sansad TV 2",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "public-service",
+      "officialEvidence": "https://sansadtv.nic.in/live-tv",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current channel language and distribution rights; obtain an authorized direct endpoint and written permission before technical review.",
+      "contactSource": "https://sansadtv.nic.in/live-tv",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "sansadtv-digital@sansad.nic.in",
+        "subject": "Request for permission to include Sansad TV 2 in Vizhi TiVi",
+        "body": "Hello, may Vizhi TiVi list and directly play Sansad TV 2 on Android mobile, Android TV and web? Please provide an authorized HTTPS HLS/DASH endpoint or documented integration. Please provide written terms covering territories, duration, attribution, advertising, fees, programme and CDN rights, and revocation. We will not publish before rights and technical review. Thank you."
+      },
+      "identityStatus": "broadcaster or government source identifies channel"
+    },
+    {
+      "channelId": "dd-sports",
+      "name": "DD Sports",
+      "country": "IN",
+      "languages": [
+        "hin"
+      ],
+      "category": "sports",
+      "officialEvidence": "https://prasarbharati.gov.in/en/dd-channels/",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Prasar Bharati / Doordarshan",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://prasarbharati.gov.in/en/doordarshan/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "manoj.gupta@prasarbharati.gov.in",
+        "subject": "Permission request: DD Sports live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DD Sports as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "rightsReview": {
+        "rightsHolder": "Prasar Bharati / Doordarshan",
+        "evidenceUrl": "https://prasarbharati.gov.in/en/disclaimer/",
+        "scope": "Website materials restrictions; not permission for live redistribution. Sports events may have separate territory and programme rights.",
+        "decision": "pending written authorization"
+      }
+    },
+    {
+      "channelId": "sai-tv",
+      "name": "Sai TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://saitv.org/about-us/",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Sai Baba Network Private Limited",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://saitv.org/about-us/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "saibabhanetwork@gmail.com",
+        "subject": "Permission request: Sai TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Sai TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "permissionPriority": 5
+    },
+    {
+      "channelId": "madha-tv",
+      "name": "Madha TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://madhatv.in/Contact",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Madha TV / Santhome Communication Centre; grant authority to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://madhatv.in/Contact",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@madhatv.in",
+        "subject": "Permission request: Madha TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Madha TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "permissionPriority": 6
+    },
+    {
+      "channelId": "mahimai-tv",
+      "name": "Mahimai TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://mahimaitv.com/contactus.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Mahimai TV; legal rights holder to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://mahimaitv.com/contactus.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "office@mahimaitv.com",
+        "subject": "Permission request: Mahimai TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Mahimai TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "permissionPriority": 7
+    },
+    {
+      "channelId": "joshua-tv",
+      "name": "Joshua TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://joshuatv.co.in/",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Joshua TV; legal rights holder to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://joshuatv.co.in/",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "Telephone: +91 94861 13630 (request written rights contact)",
+        "subject": "Permission request: Joshua TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Joshua TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you. Please provide the appropriate written licensing contact before any decision."
+      },
+      "permissionPriority": 10
+    },
+    {
+      "channelId": "thanthi-tv",
+      "name": "Thanthi TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "news",
+      "officialEvidence": "https://www.thanthitv.com/about-us",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "Daily Thanthi group; grant authority to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.thanthitv.com/about-us",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": null,
+        "subject": "Permission request: Thanthi TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Thanthi TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "puthiyathalaimurai-tv",
+      "name": "Puthiyathalaimurai TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "news",
+      "officialEvidence": "https://www.puthiyathalaimurai.com/contact-us",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "New Generation Media Corporation Private Limited",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.puthiyathalaimurai.com/contact-us",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "feedback@puthiyathalaimurai.tv",
+        "subject": "Permission request: Puthiyathalaimurai TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Puthiyathalaimurai TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "permissionPriority": 8
+    },
+    {
+      "channelId": "puthu-yugum-tv",
+      "name": "Puthu Yugum TV",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "entertainment",
+      "officialEvidence": "https://www.puthiyathalaimurai.com/contact-us",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "New Generation Media Corporation Private Limited",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.puthiyathalaimurai.com/contact-us",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "feedback@puthuyugam.tv",
+        "subject": "Permission request: Puthu Yugum TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Puthu Yugum TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "kalvi-tholaikkatchi",
+      "name": "Kalvi Tholaikkatchi",
+      "country": "IN",
+      "languages": [
+        "tam"
+      ],
+      "category": "education",
+      "officialEvidence": "https://www.dishd2h.com/media/1823/dishtv-d2h-start-kalvi-tholaikkatchi-an-educational-channel.pdf",
+      "identityStatus": "historical provider source; current operation to confirm",
+      "rightsHolder": "Tamil Nadu Government; current operator and contact to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": null,
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": null,
+        "subject": "Permission request: Kalvi Tholaikkatchi live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Kalvi Tholaikkatchi as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-dan-tv",
+      "name": "DAN TV",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "entertainment",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "Broadcaster lists DAN TV and DAN Tamil Oli separately; confirm distinction and current operation before publication.",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: DAN TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DAN TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-dan-tamil-oli",
+      "name": "DAN Tamil Oli",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "entertainment",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: DAN Tamil Oli live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DAN Tamil Oli as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-dan-music",
+      "name": "DAN Music",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "music",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: DAN Music live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DAN Music as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      },
+      "permissionPriority": 9
+    },
+    {
+      "channelId": "lk-dan-comedy",
+      "name": "DAN Comedy",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "entertainment",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: DAN Comedy live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DAN Comedy as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-dan-news",
+      "name": "DAN News",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "news",
+      "officialEvidence": "https://www.dantv.lk/programs.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: DAN News live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include DAN News as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-ohm-tv",
+      "name": "Ohm TV",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://www.dantv.lk/programs.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Ohm TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Ohm TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-holy-mary",
+      "name": "Holy Mary",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "entertainment",
+      "officialEvidence": "https://www.dantv.lk/programs.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Holy Mary live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Holy Mary as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-pirai-tv",
+      "name": "Pirai TV",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "devotional",
+      "officialEvidence": "https://www.dantv.lk/programs.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Pirai TV live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Pirai TV as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-kalvi-tv-1",
+      "name": "Kalvi TV 1",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "education",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Kalvi TV 1 live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Kalvi TV 1 as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-kalvi-tv-2",
+      "name": "Kalvi TV 2",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "education",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Kalvi TV 2 live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Kalvi TV 2 as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-kalvi-tv-3",
+      "name": "Kalvi TV 3",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "education",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Kalvi TV 3 live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Kalvi TV 3 as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    },
+    {
+      "channelId": "lk-kalvi-tv-4",
+      "name": "Kalvi TV 4",
+      "country": "LK",
+      "languages": [
+        "tam"
+      ],
+      "category": "education",
+      "officialEvidence": "https://www.dantv.lk/channels.php",
+      "identityStatus": "broadcaster source identifies service; current operation and rights authority to confirm",
+      "rightsHolder": "ASK Media Pvt Ltd; service and rights to confirm",
+      "candidateStreamUrl": null,
+      "discoveryEvidence": null,
+      "format": null,
+      "https": "No direct stream identified",
+      "connectivity": "No direct stream identified",
+      "playback": "not tested",
+      "rightsStatus": "pending",
+      "rightsEvidence": null,
+      "nextAction": "Confirm current operation, free online access, rights authority and authorized endpoint.",
+      "contactSource": "https://www.dantv.lk/about-us.php",
+      "permissionRequest": {
+        "status": "draft-not-sent",
+        "to": "info@dantv.lk",
+        "subject": "Permission request: Kalvi TV 4 live channel in Vizhi TiVi",
+        "body": "Hello, we would like to include Kalvi TV 4 as live TV in Vizhi TiVi. Please confirm that you control this channel and may license its full live programming. Can you provide an authorized non-DRM HTTPS HLS/DASH endpoint and written permission to list its URL in our public catalogue and play it directly in Android mobile, Google TV/Android TV and Angular web clients? Please specify permitted territories, duration, branding, attribution, advertising, fees, takedown terms, and platform restrictions. Please identify the stream/CDN provider and whether separate delivery authorization is required. We will not publish until rights and playback review are complete. Thank you."
+      }
+    }
+  ]
+}
